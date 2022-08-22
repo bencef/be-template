@@ -1,0 +1,12 @@
+#+options: num:nil toc:nil
+
+* About
+
+This is a starter repo for backend project, using
+- [[https://expressjs.com/en/4x/api.html][expressjs]]
+- [[https://rescript-lang.org/][rescript]]
+
+* How To
+
+1. Grep for `TODO`
+2. Replace them
