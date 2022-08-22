@@ -1,0 +1,20 @@
+{
+  "name": "TODO",
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": false
+  },
+  "suffix": ".bs.js",
+  "sources": [
+    {
+      "dir": "./src",
+      "subdirs": true
+    }
+  ],
+  "bs-dependencies": [
+    "rescript-express"
+  ],
+  "warnings": {
+    "number": "-30-45"
+  }
+}

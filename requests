@@ -1,0 +1,17 @@
+# -*- mode: restclient -*-
+
+###
+#
+# Say hello
+#
+###
+
+GET http://localhost:8080/hello
+
+###
+#
+# Say hello to a specified name
+#
+###
+
+GET http://localhost:8080/hello/Bence
