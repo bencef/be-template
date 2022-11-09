@@ -1,6 +1,6 @@
 let mkServer = () => {
   open Server.AppBuilder
-  builder()->getRoute("/hello", Server.hello)->getRoute("/hello/:name", Server.hello)->build
+  builder()->getRoute("/api/hello", Server.hello)->getRoute("/api/hello/:name", Server.hello)->build
 }
 
 let run = () => {
